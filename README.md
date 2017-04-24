@@ -1,5 +1,5 @@
 # Warning!
-Because i made this project when i was 17 years old, Code is too dirty to read. Sorry!
+고등학교 재학 시절 진행한 프로젝트이기 때문에, 코드가 굉장히 난해합니다. 이해 부탁드립니다.
 
 # Colosseum
 
