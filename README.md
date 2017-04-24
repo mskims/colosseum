@@ -5,7 +5,8 @@ Because i made this project when i was 17 years old, Code is too dirty to read. 
 
 > 콜로세움 이란?
 > 
-> 콜로세움은 고대 검투사 경기장으로 사용되었는데
+> 콜로세움은 고대 검투사 경기장으로 사용되었는데,
+>
 > 대결이 끝나면 승자는 패배한 검투사를 죽여여할지,
 > 혹은 용맹함을 보여주었으니 살려야 할지 결정했습니다.
 > 
