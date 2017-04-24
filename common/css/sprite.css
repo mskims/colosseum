@@ -1,0 +1,75 @@
+.sprite { text-indent: -500px; overflow: hidden; float: left;  background: url("/static/img/sprite/sprite_no.gif") no-repeat; }
+.sprite_shape { margin-right:1px;background:url("/static/img/sprite/sprite_updown.gif") no-repeat; }
+
+.sprite_num_size1.no0{width:16px;height:24px;background-position:0 0}
+.sprite_num_size1.no1{width:12px;height:23px;background-position:0 -50px}
+.sprite_num_size1.no2{width:16px;height:24px;margin-top:-1px;background-position:0 -100px}
+.sprite_num_size1.no3{width:16px;height:24px;background-position:0 -150px}
+.sprite_num_size1.no4{width:18px;height:22px;margin-top:1px;background-position:0 -200px}
+.sprite_num_size1.no5{width:17px;height:23px;margin-top:1px;background-position:0 -250px}
+.sprite_num_size1.no6{width:16px;height:24px;background-position:0 -300px}
+.sprite_num_size1.no7{width:15px;height:22px;margin-top:1px;background-position:0 -350px}
+.sprite_num_size1.no8{width:16px;height:24px;background-position:0 -400px}
+.sprite_num_size1.no9{width:16px;height:24px;background-position:0 -450px}
+.sprite_num_size1.comma{width:6px;height:10px;margin-top:17px;background-position:0 -500px}
+.sprite_num_size1.dot{width:5px;height:5px;margin-top:18px;margin-right:2px;background-position:0 -540px}
+.sprite.percent{width:14px;height:14px;margin-top:9px;margin-left:1px;background-position:-150px -600px}
+
+
+
+
+.sprite_num_size1.no_up.no0{background-position:-50px 0}
+.sprite_num_size1.no_up.no1{background-position:-50px -50px}
+.sprite_num_size1.no_up.no2{background-position:-50px -100px}
+.sprite_num_size1.no_up.no3{background-position:-50px -150px}
+.sprite_num_size1.no_up.no4{background-position:-50px -200px}
+.sprite_num_size1.no_up.no5{background-position:-50px -250px}
+.sprite_num_size1.no_up.no6{background-position:-50px -300px}
+.sprite_num_size1.no_up.no7{background-position:-50px -350px}
+.sprite_num_size1.no_up.no8{background-position:-50px -400px}
+.sprite_num_size1.no_up.no9{background-position:-50px -450px}
+.sprite_num_size1.no_up.comma{background-position:-50px -500px}
+.sprite_num_size1.no_up.comma{background-position:-50px -500px}
+.sprite_num_size1.no_up.dot{background-position:-50px -540px}
+.sprite.no_up.percent{background-position:-200px -600px}
+
+
+
+.sprite_num_size1.no_down.no0{background-position:-100px 0}
+.sprite_num_size1.no_down.no1{background-position:-100px -50px}
+.sprite_num_size1.no_down.no2{background-position:-100px -100px}
+.sprite_num_size1.no_down.no3{background-position:-100px -150px}
+.sprite_num_size1.no_down.no4{background-position:-100px -200px}
+.sprite_num_size1.no_down.no5{background-position:-100px -250px}
+.sprite_num_size1.no_down.no6{background-position:-100px -300px}
+.sprite_num_size1.no_down.no7{background-position:-100px -350px}
+.sprite_num_size1.no_down.no8{background-position:-100px -400px}
+.sprite_num_size1.no_down.no9{background-position:-100px -450px}
+.sprite_num_size1.no_down.comma{background-position:-100px -500px}
+.sprite_num_size1.no_down.dot{background-position:-100px -540px}
+.sprite.no_down.percent{background-position:-250px -600px}
+
+
+
+
+.sprite_num_size2.no0{width:9px;height:14px;background-position:-150px 0}
+.sprite_num_size2.no1{width:6px;height:13px;background-position:-150px -50px}
+.sprite_num_size2.no2{width:9px;height:13px;background-position:-150px -100px}
+.sprite_num_size2.no3{width:9px;height:14px;background-position:-150px -150px}
+.sprite_num_size2.no4{width:9px;height:12px;margin-top:1px;background-position:-150px -200px}
+.sprite_num_size2.no5{width:9px;height:13px;margin-top:1px;background-position:-150px -250px}
+.sprite_num_size2.no6{width:9px;height:14px;background-position:-150px -300px}
+.sprite_num_size2.no7{width:9px;height:12px;margin-top:1px;background-position:-150px -350px}
+.sprite_num_size2.no8{width:9px;height:14px;background-position:-150px -400px}
+.sprite_num_size2.no9{width:9px;height:14px;background-position:-150px -450px}
+.sprite_num_size2.comma{width:3px;height:6px;margin-top:10px;background-position:-150px -500px}
+
+
+
+.sprite_shape.up_price{width:15px;height:13px;background-position:0 0}
+.sprite_shape.down_price{width:15px;height:13px;background-position:0 -50px}
+.sprite_shape.sam{width:13px;height:5px;margin-top:4px;background-position:0 -100px}
+.sprite_shape.up{width:13px;height:12px;margin-top:1px;background-position:0 -150px}
+.sprite_shape.down{width:13px;height:12px;margin-top:1px;background-position:0 -200px}
+.sprite_shape.plus{width:10px;height:10px;margin:7px 0 0 0;background-position:0 -250px}
+.sprite_shape.minus{width:10px;height:10px;margin:11px 0 0 0;background-position:0 -300px}

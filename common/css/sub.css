@@ -1,0 +1,102 @@
+html, body { min-width: 1000px; }
+body { background: #f1f1f1; }
+.mnav { height: 60px; line-height: 60px; border-bottom: 1px dotted #f0f0f0; color: #000; font-family: "Dotum"; font-size: 12px; letter-spacing: 0; }
+	.mnav table { border: 1px solid #bebebe; line-height: 24px; height: 48px; top: 5px; border-collapse: collapse; text-align: center; margin: 0 3px; display: inline-block; }
+
+	.mnav .title { text-align: center; padding-left: 20px; font-weight: bold; }
+	.mnav .money { text-align: right; padding-right: 20px; }
+
+
+
+/* Popup */
+.popup_wrap { position: absolute; right: -200px !important; width: 20%; }
+
+/* Login */
+.login { width: 30%; margin: 0 auto;   }
+.login h2 { font-family: "YoonGothic760"; font-size: 2em; margin: 5px 0; }
+
+
+.sub { width: 100%; background: #f1f1f1; }
+	.sub .title { width: 100%; line-height: 50px; border-bottom: 1px solid #e8e8e8; font-size: 23px; background: #fff; }
+	.pnav { float: right; font-size: 11px; font-family: "Dotum"; line-height: 80px; }
+		.pnav a:hover{ text-decoration: underline; }
+	.sub .cont { width: 100%; padding-top: 30px; min-height: 300px; }
+		.scont .box_wrap { padding: 10px; float: left; }
+		.scont .box { background: #fff; width: 100%; box-shadow: 0 1px 2px rgba(0,0,0,.1); padding: 10px; }
+			.scont .box .btitle { width: 100%; line-height: 40px; height: 40px; padding-left: 5px; font-size: 20px; margin-bottom :10px; }
+				.btitle:after { display: block; content: ""; width: 100%; height: 0; border-bottom: 1px solid #f6f6f6; }
+				.btitle.tabs { }
+				.btitle.tabs a { color: #999; }
+				.btitle.tabs a:after { display: inline-block; vertical-align: middle; content: ""; width: 1px;  height: 15px; background: #cecece; margin: 0 3px 0 10px; }
+				.btitle.tabs a:last-child:after { display:none; }
+				.btitle.tabs a.active { font-weight: bold; color: #000; }
+
+
+
+.stock-content { width: 100%; overflow: hidden;}
+.stock-content-wrap { width: 200%; }
+.stock-content-wrap > div { width: 50%; float: left; }
+	.news {}
+		.news table { border-collapse: collapse; width: 100%; }
+		.news tr:not(:last-child) { border-bottom: 1px solid #eaeaea; }
+		.news tr:first-child td {  padding-top: 10px; }
+		.news td { vertical-align: top; padding: 15px 0; }
+		.news img { width: 100%; }
+		.news_title, .news_preview { width: 100%; margin-left: 10px; letter-spacing: 0; }
+		.news_title { font-size: 1.2em; line-height: 2em; }
+		.news_preview { font-size: 0.8em; line-height: 1.4em; padding-right: 15px; color: #606060;}
+
+	/* 종목토론실 */
+	.talk {}
+		.talk h1.error { width: 100%; text-align:center; margin: 20px 0; }
+		.talk table { width: 100%; border-collapse: collapse; }
+		.talk th { line-height: 2.5; border-bottom: 1px solid #e5e5e5; background: #fafafa; border-top: 1px solid #dadada; }
+		.talk td { line-height: 2.5; text-align:center; border-bottom: 1px dotted #f1f1f1; font-size: .95em; }
+		.talk .subject { text-align:left; padding-left: 10px; }
+		.talk .recommend.exists { color: #e12301; font-family: "YoonGothic740"; }
+
+		.talk_write { float: right; margin-bottom: 10px; z-index: 10; border-color: #cecece; box-shadow: none;  }
+		.talk_write:hover { background: #fff; color: #333; }
+
+		/* READ */
+		.hidden_datas { display: none; }
+		.header { width: 100%; height: 50px; background: #fafafa; border-top: 1px solid #dadada; border-bottom: 1px solid #e5e5e5; padding: 0 20px 0 10px; }
+		.header > div { float: left; line-height: 50px; height: 50px; }
+		.header .read_subject { width: 80%; font-family: "YoonGothic760"; }
+		.header .read_nick { width: 20%; text-align:right;}
+
+		.read_content-wrap { width: 100%; padding: 5px 10px 10px; }
+			.read_content { width: 100%; min-height: 120px; }
+			.read_regdate { width: 100%; text-align:right; font-size: .8em; }
+
+		.read_recommend-wrap { width: 100%; text-align:center; font-family: "YoonGothic760"; }
+			.read_recommend_button { display: inline-block; width: 100px; height: 50px; line-height: 50px; border: 1px solid #cecece; cursor: pointer; }
+			.read_recommend {  margin-left: 5px; }
+
+		.read_content {  margin: 10px 0; }
+
+
+		/* WRITE */
+
+
+		.view-info-wrap { width: 100%; text-align:right; }
+			.view-info-wrap > div { display: inline-block; }
+			.view-info-wrap > div:not(:last-child) { border-right: 1px solid #cecece; padding-right: 10px; margin-right: 6px; }
+
+
+		.opinion_colorset_1 { color: #017eff; }
+		.opinion_colorset_2 { color: #017eff; }
+		.opinion_colorset_3 { color: #464646; }
+		.opinion_colorset_4 { color: #e12301; }
+		.opinion_colorset_5 { color: #e12301; }
+
+.info_trade_input { width: 100%; padding: 10.5px; border: 1px solid #cecece; font-family: "Nanum Gothic"; letter-spacing: 1px; }
+.info_trade_button { width: 100%; padding: 11px; border-radius: 0; border: 1px solid #cecece; box-shadow: 0 0 0 ; }
+.info_trade_button:hover { background: #fff; color: #333; }
+
+.stock_count_counting { letter-spacing: 0; font-size: .9em; } 
+
+/* 클래스 */
+.wh_c { width: 1000px; float: none; margin: 0 auto; }
+/* 클래스 */
+
